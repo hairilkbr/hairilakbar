@@ -1,0 +1,296 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Helvetica";
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ---------------------------------------- HEADER ---------------------------------------- */
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+.container{
+
+  /*width: 100%;*/
+  padding: 0px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 140px;
+  margin:0 5px;
+}
+
+.header-left {
+  float: left;
+}
+
+.active{
+  background-color: red;
+  padding:6px 0;
+  border-radius: 2px;
+}
+
+.listt{
+ margin: 0 5px;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+  margin-right: 4px;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 100%;
+  padding: 15px;
+  color: white;
+  display: block;
+  margin:2px 0;
+
+}
+
+.list-header {
+	color: #fff;
+	float: right;
+}
+.list-header a {
+	list-style: none;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 9px;
+	display: inline-block;
+	cursor: pointer;
+	color: #fff;
+}
+
+/* ---------------------------------------- MAIN CONTENT ---------------------------------------- */
+
+.top-wrapper {
+  background-image: url(https://i.ibb.co/k3k1Rmw/background-cover.jpg);
+  background-size: cover;
+  padding: 180px 0 450px 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contents {
+  padding-left: 20px;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-bottom: 9px;
+  text-align:center;
+  color:white;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 5px;
+  text-align:center;
+  color:white;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+  position: relative;
+  top: 400px;
+  text-align: center;
+}
+
+.signup {
+  background-color: #239b71;
+  border: 3px solid #3c04;
+  font-family: arial;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px yellow;
+  box-shadow: 0 0 20px rgba(0,0,0);
+  /*margin-right: 20px;*/
+  margin:0 20px;
+}
+
+
+.explore {
+  background-color: #915918;
+  border: 3px solid #3c04;
+  font-family: arial;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px white;
+  box-shadow: 0 0 20px rgba(0,0,0);
+  /*margin-right: 20px;*/
+  /*margin:0 20px;*/
+}
+
+.destination {
+  background-color: #f41;
+  border: 3px solid #3c04;
+  font-family: arial;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px white;
+  box-shadow: 0 0 20px rgba(0,0,0);
+  margin:0 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  opacity: 0.9;
+  border-radius: 4px;
+}
+ .btn:hover {
+   opacity: 1;
+}
+ 
+.fa {
+   margin-right: 5px;
+}
+
+.heading{
+/*text-align: center;*/
+border-bottom: 1px dotted brown;
+}
+
+.heading h3 {
+  margin-top: 30px;
+  font-weight: normal;
+}
+
+.content-btm {
+  background-color: #f7f7f7;
+  height: 300px;
+  text-align: center;
+}
+
+.heading h3 {
+  /*margin-left: 80px;*/
+  margin-bottom: 10px;
+  padding-top: 10px;
+
+}
+
+.main-img {
+  margin: 20px 0;
+  text-align: center;
+  /*margin-left: 50px;*/
+/*  width:25%;
+  display: block;*/
+}
+
+.img-destination img {
+  width:25%;
+  padding:10px;
+  float:left;
+  height: 40%;
+  padding-bottom: 5px;
+}
+.clear{
+  clear:left;
+}
+/* ---------------------------------------- FLEXBOX --------------------------------------- */
+.flexbox {
+  margin:0 10px;
+  /*padding:0 45px;*/
+  list-style: none;
+  text-align: center;
+}
+.flexbox li {
+  color: white;
+  height: 100px;
+  line-height: 50px;
+
+}
+
+.flexbox ul {
+  margin: 10px 5px;
+  padding: 30px 0;
+
+}
+
+.flexbox li{
+  list-style: none;
+}
+
+.li1 {
+  background-image: url(https://i.ibb.co/P61XmQs/bunaken1.jpg);
+
+}
+.li2 {
+  background-color: green;
+}
+.li3 {
+  background-color: pink;
+}
+.li4 {
+  background-color: red;
+}
+
+.flex-list {
+  display: flex;
+}
+.flex-list li {
+  flex: auto;
+}
+
+/* ---------------------------------------- FOOTER ---------------------------------------- */
+
+footer {
+  margin-top: 100px;
+}
+
+.cont-footer {
+	position: relative;
+	padding-left: 30px;
+  padding-right: 30px;	
+}
+
+.footer-logo {
+  float: left;
+}
+
+.footer-logo img {
+  width: 170px;
+}
+
+.footer-logo p {
+  color: #b3aeb5;
+  font-size: 12px;
+  position: absolute;
+  top: 33px;
+  padding-left: 7px;
+  padding-bottom: 10px;
+}
+
+.footer-vers b {
+  float: right;
+  padding: 20px;
+}
+
+input,textarea{
+  width:400px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+  padding:20px;
+  margin-top:10px;
+  margin-bottom:30px;
+}
