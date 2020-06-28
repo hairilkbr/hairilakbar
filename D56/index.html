@@ -2,13 +2,15 @@
 <html>
     <head>
         <meta charset="utf-8">
+	
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Indonesian Adventure | Indventure</title>
-        <link rel="stylesheet" href="stylesheet.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <link rel="icon" type="image/png" sizes="16x16" href="https://i.ibb.co/Fw6r8my/icon.png">
-		<link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="./src/stylesheet.css">
+        <link rel="stylesheet" href="./src/font-googleapis">
+        <link rel="stylesheet" href="./src/font-awesome.min.css">
+        <link rel="icon" type="image/png" sizes="16x16" href="./src/icon.png">
+	    <link rel="stylesheet" href="./src/responsive.css">
+        <!-- <link rel="stylesheet" href="grt-responsive-menu.css"> -->
     </head>
 
     <body>
@@ -17,21 +19,20 @@
         <header>
             <div class="container">
                 <div class="header-left">
-                <img class="logo" src="http://sharp.jambiproorganizer.com/wp-content/uploads/2020/06/INDVENTUREE-y-1024x341.png">
-                <div class="list-header">
-                    <ul class="listt">
-                    <a class="active" href="#">Home</a>
-                    <a href="flora.html">Flora & Fauna</a>
-                    <a href="pemandangan.html">Pemandangan</a>
-                    </ul>
-                </div>
-                <span class="fa fa-bars menu-icon"></span>
-                </div>
-                <div class="header-right">
-                <a href="#" class="login">Log in</a>
-                </div>
+                <a href="#"><img class="logo" src="./src/logo.png"></a>
+                	</div>
+                	<div class="list-header">
+                	<nav>
+                	  <button class="grt-mobile-button"><span class="line1"></span><span class="line2"></span><span class="line3"></span></button>		
+                                <ul class="grt-menu">
+                                <a class="active" href="#">Home</a>
+                                <a href="#">Flora & Fauna</a>
+                                <a href="#">Pemandangan</a>
+                                </ul>
+                            
+                            </nav>
+                	</div> 
             </div>
-
         </header>
 
 <!-- MAIN CONTENT -->
@@ -58,23 +59,18 @@
             </div>
             <div class="main-img">
                 <div class="img-destination">
-                    <a href=""><img src="https://i.ibb.co/P61XmQs/bunaken1.jpg"></a>
+                    <a href=""><img src="./src/bunaken1.jpg"></a>
                 </div>
                 <div class="img-destination">
-                    <img src="https://i.ibb.co/Cm7Zthh/bunaken2.jpg">
+                    <a href=""><img src="./src/bunaken2.jpg"></a>
                 </div>
                 <div class="img-destination">
-                    <img src="https://i.ibb.co/9ghSKFV/bunaken3.jpg">
+                    <img src="./src/bunaken1.jpg">
                 </div>
                 <div class="img-destination">
-                    <img src="https://i.ibb.co/Cm7Zthh/bunaken2.jpg">
+                    <img src="./src/bunaken2.jpg">
                 </div>
-                <!-- <div class="img-destination">
-                    <img src="https://i.ibb.co/NC0PpsM/bunaken5.jpg"/>
-                </div> -->
-				<!-- <div class="img-destination">
-                    <img src="http://sharp.jambiproorganizer.com/wp-content/uploads/2020/06/1501582843-6bd8d38e8d-snorkeling-mandolin-bunaken-island-indonesia.jpg"/>
-                </div> -->
+                
 				
             </div>
         </div>
@@ -100,7 +96,7 @@
         <footer>
             <div class="cont-footer">
                 <div class="footer-logo">
-                    <img src="http://sharp.jambiproorganizer.com/wp-content/uploads/2020/06/INDVENTUREE-footer-1024x341.png">
+                    <img src="./src/logo bw.png">
                     <p>Explore Indonesia, find your own adventure.</p>
                 </div>
                 <div class="footer-vers">
@@ -109,10 +105,10 @@
                 </div>
             </div>
         </footer>
-
-
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="./src/grt-responsive-menu.js"></script>
   </body>
-
+	
 
 </html>
 

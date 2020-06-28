@@ -1,0 +1,215 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .container { 
+    
+  }
+  .top-wrapper{
+    background-image: cover;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .top-wrapper p {
+    font-size: 20px;
+  }
+header{
+
+}
+.header-left{
+margin:0 auto;
+ height:auto;
+}
+
+.list-header{
+ height:auto;
+}
+
+
+  .signup{
+    margin-left: 10px;
+    margin-bottom:10px;
+  }
+
+  .explore {
+    margin-right: 10px;
+  }
+
+  .destination {
+
+  }
+
+  .img-destination img{
+    width: 50%;
+    height: 50%;
+    margin-bottom:1px;
+  }
+
+  .flex-list {
+    flex-wrap: wrap;
+  }
+  .flex-list li {
+    width: 50%;
+  }
+
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .container {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 60%;
+    margin-bottom: 10px;
+  }
+  
+  .flex-list {
+    flex-direction:column;
+  }
+  
+  /* Tetapkan margin dari .flex-list li ke 0 auto */
+  .flex-list li {
+    margin:0 auto;
+  }
+ 
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  /* Tambahkan CSS untuk header-right */
+  .list-header {
+    
+  }
+  
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    display:block;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .img-destination img{
+    width: 100%;
+    height: 100%;
+    margin-bottom:1px;
+  }
+
+  .top-wrapper{
+    background-image: cover;
+  }
+
+  .btn-wrapper{
+
+  }
+  .listt{
+	
+  }
+  .destination {
+    margin-left:10px;
+  }
+
+
+.list-header ul{
+      width: 100%;
+      height: auto;	
+}
+
+.list-header li{
+      width: 100%;
+      
+     	
+}
+	.grt-mobile-button {
+		display:inline-block;
+		position:absolute;
+		right:5px;
+		top:7px;
+		background:#FFF;
+		color:#3d3d3d;
+		margin:0;
+		padding:0;
+		cursor:pointer;
+		border: 0;
+		width:35px;
+	}
+
+	.grt-mobile-button .line1, .grt-mobile-button .line2, .grt-mobile-button .line3 {
+		width: 35px;
+		height: 4px;
+		background-color: #333;
+		margin: 6px 0;
+		transition: 0.4s;
+		display:block;
+	}
+
+	ul.grt-menu {
+		display:none;
+		margin:0;
+  		height: 0;
+	}  
+
+	ul.open-grt-menu {
+		position: fixed;
+		background: black;
+		width: 100%;
+		left: 0;
+		right: 0;
+		top: 0;
+		height:100%;
+		float: none;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.grt-mobile-button-open {
+		position: fixed;
+		z-index:99999;
+		right:25px;
+		top:25px;
+	}
+
+	.grt-mobile-button-open .line1 {
+		-webkit-transform: rotate(-45deg) translate(-8px, 5px);
+		transform: rotate(-45deg) translate(-8px, 5px);
+	}
+
+	.grt-mobile-button-open .line2 {opacity: 0;}
+	
+	.grt-mobile-button-open .line3 {
+		-webkit-transform: rotate(45deg) translate(-8px, -7px);
+		transform: rotate(45deg) translate(-8px, -7px);
+	}
+
+	ul.grt-menu li {
+		display: block;
+		line-height: 3.5em;
+	}
+
+	ul.grt-menu li a {
+		padding: 6px 10px;
+		font-size:30px;
+	}
+
+
+
+
+}
